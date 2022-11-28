@@ -1,0 +1,67 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: black;
+	color:white;
+}
+
+ul.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 6px;
+	width: 10%;
+	background-color: #18191A;
+	color: white;
+	height:100%;
+	position: fixed;
+	overflow: auto;
+	text-align: center;
+}
+
+li a { 
+	display:block;
+	padding: 8px 16px;
+	text-decoration: none;
+	text-align: center;
+}
+
+li a:hover {
+	background-color: #555;
+	colour:white;
+}
+
+.leftlist {
+	display: inline-block;
+	padding: 25px;
+	list-style-type: circle;
+}
+.rightlist {
+	display: inline-block;
+	padding:25px;
+	list-style-type: circle;
+}
+
+#main {
+	text-align: center;
+	margin-left:250px;
+}
+
+h3 {
+	padding:15px;
+}
+#whatislefttosay {
+	width:650px;
+	height:400px;
+	cursor: pointer;
+}
+#stonehenge {
+	width:380px;
+	height:200px;
+	cursor: pointer;
+}
+
+#alien{
+	width:380px;
+	height:200px;
+	cursor: pointer;
+}
+
